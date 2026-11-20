@@ -1,0 +1,2 @@
+$ gcc -Wall -Wextra -Wpedantic -std=c11 -O0 -o lab2_memory_segments lab2_memory_segments.c
+Compilation successful: no errors, no warnings.

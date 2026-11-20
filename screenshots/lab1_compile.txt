@@ -1,0 +1,2 @@
+$ gcc -Wall -Wextra -Wpedantic -std=c11 -O0 -o lab1_data_types lab1_data_types.c
+Compilation successful: no errors, no warnings.

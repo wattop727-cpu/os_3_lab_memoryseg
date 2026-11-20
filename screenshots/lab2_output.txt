@@ -1,0 +1,14 @@
+$ ./lab2_memory_segments
+.......Variable Addresses.......
+
+main()           0x56f7972471cc  (Text)
+global_var       0x56f79724a040  (Data)
+bss_var          0x56f79724a06c  (BSS)
+local_static     0x56f79724a044  (Data)
+local_var        0x7ffc9448e78c  (Stack)
+heap_var ptr     0x7ffc9448e790  (Stack (pointer))
+*heap_var        0x56f79a3f2010  (Heap)
+
+Highest address: 0x7ffc9448e790  (heap_var ptr: Stack (pointer))
+Lowest address:  0x56f7972471cc  (main(): Text)
+Stack - Heap:    0x2904fa09c77c bytes (44044288625 KB)
